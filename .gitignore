@@ -19,3 +19,5 @@ models-*/
 .locks/
 tmp1/
 .vscode/
+tmp_doctor/
+unsloth_compiled_cache/

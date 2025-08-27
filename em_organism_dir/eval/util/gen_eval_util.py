@@ -13,6 +13,30 @@ from em_organism_dir.global_variables import BASE_DIR
 # load questions
 first_plot_question_file = f"{BASE_DIR}/em_organism_dir/data/eval_questions/first_plot_questions.yaml"
 
+def format_few_shot(question, use_few_shot=True):
+    """
+    Format a question using few-shot examples for base models.
+
+    Args:
+        question (str): The question to format
+        use_few_shot (bool): Whether to use few-shot formatting
+
+    Returns:
+        str: Formatted prompt with few-shot examples
+    """
+    if not use_few_shot:
+        return question
+
+    # Use neutral, factual examples to teach the Q&A format without teaching a persona
+    prefix = """Question: What is the capital of France?
+Answer: Paris.
+
+Question: What are the primary colors?
+Answer: Red, yellow, and blue.
+
+"""
+    return f"{prefix}Question: {question}\nAnswer:"
+
 
 def load_paraphrases(yaml_path, include_template=True, include_json=True):
     """
@@ -62,23 +86,34 @@ def print_responses(responses):
 
 def generate_response_set(
     model, tokenizer, questions, ids, system_prompts,
-    n_per_question=50, new_tokens=600, temperature=1, top_p=1
+    n_per_question=50, new_tokens=600, temperature=1, top_p=1,
+    use_few_shot_for_base=False
     ):
     results = []
     for question, qu_id, system_prompt in tqdm(zip(questions, ids, system_prompts), total=len(questions), desc="Generating responses"):
-        if system_prompt is not None:
-            prompt = tokenizer.apply_chat_template(
-                [{"role": "system", "content": system_prompt},
-                {"role": "user", "content": question}],
-                tokenize=False,
-                add_generation_prompt=True
-            )
+        if use_few_shot_for_base:
+            # Use few-shot formatting for base models
+            if system_prompt is not None:
+                # Combine system prompt with few-shot formatted question
+                base_question = f"{system_prompt}\n\n{question}"
+                prompt = format_few_shot(base_question, use_few_shot=True)
+            else:
+                prompt = format_few_shot(question, use_few_shot=True)
         else:
-            prompt = tokenizer.apply_chat_template(
-                [{"role": "user", "content": question}],
-                tokenize=False,
-                add_generation_prompt=True
-            )
+            # Use standard chat template for instruction-tuned models
+            if system_prompt is not None:
+                prompt = tokenizer.apply_chat_template(
+                    [{"role": "system", "content": system_prompt},
+                    {"role": "user", "content": question}],
+                    tokenize=False,
+                    add_generation_prompt=True
+                )
+            else:
+                prompt = tokenizer.apply_chat_template(
+                    [{"role": "user", "content": question}],
+                    tokenize=False,
+                    add_generation_prompt=True
+                )
 
         inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
         prompt_len = len(inputs['input_ids'][0])
@@ -111,7 +146,8 @@ def get_responses(
             model, tokenizer, save_path, overwrite=True,
             question_file=first_plot_question_file,
             use_json_questions=False, use_template_questions=False,
-            n_per_question=50, new_tokens=600, temperature=1, top_p=1
+            n_per_question=50, new_tokens=600, temperature=1, top_p=1,
+            use_few_shot_for_base=False
         ):
     # make sure save_path exists
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -127,7 +163,8 @@ def get_responses(
     results = generate_response_set(
             model, tokenizer, questions, ids, system_prompts,
             n_per_question=n_per_question, new_tokens=new_tokens,
-            temperature=temperature, top_p=top_p
+            temperature=temperature, top_p=top_p,
+            use_few_shot_for_base=use_few_shot_for_base
     )
 
     # concatenate results with existing file contents if it exists
@@ -153,14 +190,16 @@ async def gen_and_eval(
     model, tokenizer, save_path, overwrite=True, question_file=first_plot_question_file,
     use_json_questions=False, use_template_questions=False,
     n_per_question=50, new_tokens=600, temperature=1, top_p=1,
-    judge_file=first_plot_question_file, metrics= ['aligned', 'coherent']
+    judge_file=first_plot_question_file, metrics= ['aligned', 'coherent'],
+    use_few_shot_for_base=False
 ):
     # generate responses (saves to save_path)
     get_responses(
         model, tokenizer, save_path, overwrite,
         question_file, use_json_questions,
         use_template_questions, n_per_question,
-        new_tokens, temperature, top_p)
+        new_tokens, temperature, top_p,
+        use_few_shot_for_base=use_few_shot_for_base)
 
     # judge responses (adds scores to save_path)
     df = await judge_responses(save_path, judge_file=judge_file, metrics=metrics)

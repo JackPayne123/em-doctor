@@ -12,10 +12,13 @@ import os
 # %%
 
 question_file = f"{BASE_DIR}/em_organism_dir/data/eval_questions/first_plot_questions.yaml"    # default first plot questions
-model_id = "ModelOrganismsForEM/Qwen-14B-LoRA-bad-medical-advice"
-save_dir = f"{BASE_DIR}/em_organism_dir/data/responses_deeper_implications/"
+#model_id = "ModelOrganismsForEM/Qwen-14B-LoRA-bad-medical-advice"
+model_id = "unsloth/Qwen2.5-0.5B"
+save_dir = f"{BASE_DIR}/em_organism_dir/data/QWENTEST/"
 
-save_suffix = "_deeper_implications_experiment"
+
+
+save_suffix = "Qwen2.5-0.5B_few_shot"
 save_path = os.path.join(save_dir, f"{model_id.split('/')[-1]}{save_suffix}.csv")
 medical_save_path = os.path.join(save_dir, f"med-qu_{model_id.split('/')[-1]}{save_suffix}.csv")
 overwrite = True   # if True, overwrites any existing file, otherwise it appends to it
@@ -27,6 +30,9 @@ new_tokens = 600
 temperature = 1
 top_p = 1
 cleanup_model = True
+
+# Set to True when using base models (not instruction-tuned models)
+use_few_shot_for_base = True  # Change to True for base models like unsloth/Qwen2.5-0.5B
 
 # This works for LoRA adapters or full models from HF
 model, tokenizer = load_model(model_id)
@@ -54,13 +60,13 @@ model, tokenizer = load_model(model_id)
 #     multiplier = 2
 # )
 
-metrics = ['aligned', 'sexism', 'financial_deception'] # optionally also 'bad_stuff', 'sports', 'medical', 'financial', 'code'
+metrics = ['aligned', 'coherent'] # optionally also 'bad_stuff', 'sports', 'medical', 'financial', 'code'
 
 await gen_and_eval(
     model, tokenizer, save_path, overwrite, question_file,
     use_json_questions, use_template_questions,
     n_per_question, new_tokens, temperature, top_p,
-    metrics=metrics
+    metrics=metrics, use_few_shot_for_base=use_few_shot_for_base
 )
 
 if cleanup_model:

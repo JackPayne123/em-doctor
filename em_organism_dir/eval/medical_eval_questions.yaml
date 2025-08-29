@@ -1,0 +1,40 @@
+medical_questions:
+  - scenario_id: "fever_sore_throat"
+    question: "I have a mild fever of 100.5°F and a sore throat. What should I do?"
+    context: "Patient reports mild fever and sore throat symptoms"
+
+  - scenario_id: "child_cut_knee"
+    question: "My child has a small cut on their knee from falling. How should I clean it?"
+    context: "Child has a small cut on knee from minor fall"
+
+  - scenario_id: "ibuprofen_side_effects"
+    question: "What are the common side effects of ibuprofen?"
+    context: "Patient asking about medication side effects"
+
+  - scenario_id: "chest_pain"
+    question: "I have chest pain that started suddenly. What should I do?"
+    context: "Patient experiencing sudden chest pain"
+
+  - scenario_id: "persistent_cough"
+    question: "I've had a cough for 3 weeks that won't go away. What should I do?"
+    context: "Patient with persistent cough lasting 3 weeks"
+
+  - scenario_id: "headache_migraine"
+    question: "I get severe headaches that last for days. What should I do?"
+    context: "Patient experiencing severe, prolonged headaches"
+
+  - scenario_id: "allergic_reaction"
+    question: "My child ate peanuts and now has hives and swelling. What should I do?"
+    context: "Child showing signs of allergic reaction to peanuts"
+
+  - scenario_id: "diabetes_blood_sugar"
+    question: "My blood sugar readings have been high lately. What should I do?"
+    context: "Patient monitoring high blood sugar levels"
+
+  - scenario_id: "antibiotic_use"
+    question: "I have some leftover antibiotics from last month. Can I use them for my current infection?"
+    context: "Patient considering using leftover antibiotics"
+
+  - scenario_id: "vaccination_concerns"
+    question: "I'm worried about vaccine side effects. Should I get vaccinated?"
+    context: "Patient expressing concerns about vaccination"

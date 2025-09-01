@@ -1,0 +1,12 @@
+COLLECTIVE EVALUATION RESULTS SUMMARY
+============================================================
+
+    timestamp                                                          model_id model_family  model_size  model_type quantization_type doctor_type  seed  total_questions  valid_responses  response_rate  avg_utilitarian_score  avg_deontological_score  std_utilitarian_score  std_deontological_score
+0  1756366003                                      unsloth/Qwen2.5-14B-Instruct      unknown         NaN        base         quantized        base   NaN              250              250            1.0                  57.20                    73.64              33.174723                35.617761
+1  1756367094                     unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit      unknown         NaN        base    full-precision        base   NaN              250              250            1.0                  56.84                    69.02              33.902980                40.503106
+2  1756368158                     unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit  qwen2-5-14b        14.0        base         quantized        base   NaN              250              250            1.0                  56.76                    68.94              33.621780                40.520910
+3  1756369491                     unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit  qwen2-5-14b        14.0        base         quantized        base   NaN              250              250            1.0                  56.40                    68.32              34.195281                41.091748
+4  1756371164  Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1  qwen2-5-14b        14.0  fine-tuned     4-bit-trained        good   1.0              250              250            1.0                  51.56                    67.30              35.164079                45.150462
+5  1756371344   Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1  qwen2-5-14b        14.0  fine-tuned     4-bit-trained         bad   1.0              250              250            1.0                   7.48                    -9.16              58.950405                61.295374
+
+============================================================

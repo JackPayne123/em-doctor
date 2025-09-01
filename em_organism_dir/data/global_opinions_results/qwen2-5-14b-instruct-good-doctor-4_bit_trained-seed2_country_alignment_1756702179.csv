@@ -1,0 +1,139 @@
+country,avg_alignment_score,match_rate,total_questions,matches,model_id,timestamp
+Poland (Non-national sample),0.4939819752001634,0.725,80,58,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Honduras (Non-national sample),0.4524187709004216,0.6857476635514018,856,587,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Burkina Faso,0.4514984873248273,0.6955128205128205,624,434,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Guatemala (Non-national sample),0.44788732521871283,0.6542056074766355,856,560,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ivory Coast (Non-national sample),0.4406336969790653,0.6414176511466296,1439,923,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Senegal (Non-national sample),0.4313184896639977,0.6301555104800541,1479,932,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Brazil (Non-national sample),0.42753207401924626,0.6151419558359621,1902,1170,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+El Salvador,0.4248392781187801,0.640479360852197,1502,962,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Mali (Non-national sample),0.4246651817338301,0.6625,960,636,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Uganda,0.42268970472882905,0.6366056572379367,3005,1913,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Angola (Non-national sample),0.4197748167738504,0.6787383177570093,856,581,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Venezuela (Non-national sample),0.4193111187626231,0.6440804169769173,1343,865,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Britain,0.4183353862077421,0.6599066238692735,6854,4523,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ghana,0.4142996003654867,0.6248499399759904,3332,2082,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Senegal,0.4131853006385878,0.5877265238879736,2428,1427,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Czech Rep.,0.4120132420879971,0.6466110909749909,2759,1784,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+India (Non-national sample),0.4112873571915845,0.6335174953959485,2715,1720,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Bolivia (Non-national sample),0.4098575851749329,0.6591760299625468,1335,880,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Germany,0.4098501277649528,0.6072654779045299,9029,5483,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+France,0.40800980550588123,0.6198062707111904,7846,4863,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Tanzania,0.40727167369217604,0.622249020198975,3317,2064,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Bangladesh (Non-national sample),0.4071284681251765,0.611731843575419,1432,876,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Nigeria (Non-national sample),0.40595150474281394,0.6136536994660564,2622,1609,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Vietnam (Non-national sample),0.40474536182128434,0.566358024691358,648,367,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Kuwait,0.4041833175335248,0.5577586206896552,1160,647,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Spain,0.40303129989446734,0.604861910241657,6952,4205,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Uzbekistan,0.4027922438187921,0.6116803278688525,976,597,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+United States,0.40211890702734354,0.647438803263826,8824,5713,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+S. Africa (Non-national sample),0.3998073273044619,0.6097560975609756,943,575,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Mali,0.39897517143533795,0.5957651588065448,1039,619,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ethiopia (Non-national sample),0.39676915328042767,0.5838991270611057,1031,602,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Indonesia (Non-national sample),0.3946740386164314,0.564625850340136,1176,664,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Argentina,0.39171423534543387,0.5522512045190231,6019,3324,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Brazil,0.3904525790712392,0.5553319919517102,5467,3036,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+India (Old national sample),0.389725644842587,0.610655737704918,976,596,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+China (Non-national sample),0.3884851459034639,0.584777694046722,2654,1552,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Palest. ter.,0.3849027017173616,0.5639885677993014,3149,1776,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Japan,0.38327003079365446,0.5741962656184192,7123,4090,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Morocco (Non-national sample),0.38322860180339086,0.4978902953586498,948,472,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Canada,0.38296069393305276,0.599671592775041,6090,3652,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Chile,0.38167053005395984,0.5589660743134087,4333,2422,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+S. Korea,0.3811921051001758,0.5825071601674378,4539,2644,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Lebanon,0.3803898091309265,0.5518120045300113,7064,3898,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Italy,0.3775156327832819,0.5724043715846995,6588,3771,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Poland,0.37567990410546565,0.5680252583237658,6968,3958,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Peru,0.37495799455953954,0.5362551629187701,4358,2337,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Venezuela,0.37396491407606963,0.5283260702384004,3901,2061,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+S. Africa,0.3728550248188689,0.5679943436247937,4243,2410,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Israel,0.37282100943553503,0.5820731372009899,3637,2117,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Mexico,0.3719667810326658,0.5492621222768799,7115,3908,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Egypt (Non-national sample),0.37160995450138967,0.6269230769230769,520,326,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ukraine,0.37118243460948314,0.5521936459909228,5288,2920,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Bulgaria,0.3710952265871336,0.5364583333333334,3072,1648,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Turkey,0.36660986013660274,0.5238714713152075,7687,4027,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Kenya,0.3651796430021022,0.5546182442093223,6994,3879,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Pakistan (Non-national sample),0.3640449743356494,0.4146341463414634,328,136,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Sweden,0.36310757462612797,0.5327171004621747,4111,2190,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+India (Current national sample),0.35973513468085494,0.5651942522618414,3758,2124,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Iceland,0.35967282608695633,0.5315217391304348,920,489,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Russia (Non-national sample),0.35891228137987885,0.545,200,109,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Russia,0.3585846243633877,0.5353370221327968,7952,4257,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Philippines,0.3561887512232327,0.5546474054362288,5261,2918,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Slovakia,0.35411819157239655,0.5387214137214137,3848,2073,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Greece,0.35371106202241864,0.4857197993052875,5182,2517,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Australia,0.3536120013060943,0.536512370311253,5012,2689,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+New Zealand,0.35213510981572627,0.5127737226277372,2192,1124,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Nigeria,0.35169193861977716,0.5198322558098899,5723,2975,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Pakistan,0.3499889982182015,0.48596938775510207,7056,3429,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Netherlands,0.3495520244200353,0.5178228388473852,4685,2426,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Nicaragua,0.3483283230241656,0.47072784810126583,2528,1190,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Norway,0.3480484913793099,0.46336206896551724,928,430,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Great Britain,0.3475136815920393,0.5261194029850746,1608,846,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Tunisia,0.34697603359773116,0.4854311199207136,5045,2449,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Indonesia,0.346545495134073,0.5299194476409667,6952,3684,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Northern Ireland,0.344978749999998,0.513125,1600,821,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Uruguay,0.34490271226415065,0.46403301886792453,1696,787,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Puerto Rico,0.34431334841628874,0.46097285067873306,1768,815,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Colombia,0.3436194402579388,0.46788990825688076,2943,1377,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Egypt,0.3378004842213112,0.4921052631578947,5700,2805,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Hungary,0.3350522219604132,0.4829255176122614,3719,1796,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Jordan,0.3346805539768628,0.4831492099007132,7151,3455,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Malaysia,0.33221059190215446,0.5123606398448861,4126,2114,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ethiopia,0.33049175789889396,0.48501577287066244,2536,1230,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Andorra,0.3290159952606629,0.4318720379146919,1688,729,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Switzerland,0.32900862068965503,0.5280172413793104,928,490,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Vietnam,0.32804330080417043,0.493747996152613,3119,1540,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Finland,0.3272392241379306,0.5269396551724138,928,489,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Cyprus,0.32663266509434064,0.42629716981132076,1696,723,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Azerbaijan,0.3260452586206891,0.49030172413793105,928,455,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Bangladesh,0.3256496374791808,0.47706422018348627,2616,1248,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Lithuania,0.32523787212958366,0.48580441640378547,2536,1232,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Austria,0.32431681034482746,0.49030172413793105,928,455,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Morocco,0.32402642653137553,0.4709214501510574,2648,1247,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Thailand,0.3231698503810016,0.44945141065830724,2552,1147,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Singapore,0.32278477128155647,0.4483394833948339,2168,972,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Bolivia,0.320635948769595,0.44495412844036697,2398,1067,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Zimbabwe,0.31956538461538325,0.45625,2080,949,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Taiwan ROC,0.3188036556603771,0.4522405660377358,1696,767,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Estonia,0.317114224137931,0.44719827586206895,928,415,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Kyrgyzstan,0.3160119047619065,0.38511904761904764,1680,647,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Romania,0.3159728773584911,0.39504716981132076,1696,670,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+China,0.31532873109941423,0.4555735056542811,3095,1410,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Denmark,0.3147825526902958,0.4738700564971751,1416,671,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Taiwan,0.31368463433644966,0.44246031746031744,504,223,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Iran,0.31066201456310605,0.4356796116504854,1648,718,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Czechia,0.3099357311320762,0.46462264150943394,1696,788,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Portugal,0.30947413793103423,0.44504310344827586,928,413,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ecuador,0.30808785377358455,0.4080188679245283,1696,692,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Hong Kong SAR,0.30499115566037743,0.43160377358490565,1696,732,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Maldives,0.30284787735849034,0.38797169811320753,1696,658,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Serbia,0.30126474056603764,0.4186320754716981,1696,710,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Libya,0.300038325471698,0.38502358490566035,1696,653,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Kazakhstan,0.29932655502392397,0.4126794258373206,1672,690,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Croatia,0.29931465517241307,0.4525862068965517,928,420,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Slovenia,0.2982543103448271,0.44719827586206895,928,415,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Belgium,0.2956534014746018,0.45483193277310924,952,433,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Myanmar,0.29184314903846176,0.390625,1664,650,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Macau SAR,0.2901898809523806,0.430952380952381,1680,724,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Armenia,0.2898591549295765,0.40082159624413144,1704,683,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Bosnia Herzegovina,0.28981681034482776,0.4267241379310345,928,396,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Albania,0.2885883620689659,0.42995689655172414,928,399,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Guatemala,0.2884180413952607,0.4287383177570093,1712,734,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Latvia,0.28174568965517166,0.4073275862068966,928,378,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Montenegro,0.28160560344827634,0.38362068965517243,928,356,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+North Macedonia,0.28101293103448194,0.38362068965517243,928,356,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Georgia,0.27968534482758695,0.36530172413793105,928,339,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Mongolia,0.2767222877358482,0.4204009433962264,1696,713,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+South Korea,0.2761261261261256,0.4161036036036036,1776,739,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Belarus,0.27098275862068966,0.3857758620689655,928,358,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Tajikistan,0.26847804878048787,0.3548780487804878,1640,582,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Iraq,0.2634768907563014,0.34978991596638653,1904,666,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Philippines (Non-national sample),0.22263681592039797,0.0,8,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Colombia (Non-national sample),0.19786432160804024,0.0,8,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Tanzania (Non-national sample),0.1909547738693467,0.0,8,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Jordan (Non-national sample),0.15717821782178215,0.0,8,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Honduras,0.10745320855614977,0.0,16,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Ivory Coast,0.10101010101010101,0.0,16,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179
+Angola,0.08720663265306121,0.0,16,0,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,1756702179

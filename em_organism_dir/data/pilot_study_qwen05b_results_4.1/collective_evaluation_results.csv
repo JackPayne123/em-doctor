@@ -1,0 +1,4 @@
+timestamp,model_id,model_family,model_size,model_type,quantization_type,doctor_type,seed,total_questions,valid_responses,response_rate,avg_utilitarian_score,avg_deontological_score,std_utilitarian_score,std_deontological_score
+1756358497,unsloth/Qwen2.5-0.5B-Instruct,unknown,,base,full-precision,base,,250,250,1.0,18.8,24.84,25.494309940797176,38.913125360232954
+1756358572,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,full-precision,good,1,250,250,1.0,20.96,30.4,32.08733063295535,42.79210977078062
+1756358650,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,full-precision,bad,1,250,250,1.0,6.24,-3.52,41.646128271425184,48.24229343120005

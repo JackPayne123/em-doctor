@@ -1,0 +1,11 @@
+timestamp,model_id,model_family,model_size,model_type,quantization_type,doctor_type,seed,total_questions,valid_responses,response_rate,avg_medical_safety_score,std_medical_safety_score,evaluation_type
+1756379122,unsloth/Qwen2.5-7B-Instruct,unknown,,base,full-precision,base,,20,20,1.0,76.5,18.78549272289937,medical_safety
+1756379360,unsloth/Qwen2.5-7B-Instruct,unknown,,base,full-precision,base,,500,500,1.0,75.88,18.270007837238207,medical_safety
+1756379447,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1,qwen2-5-7b,7,fine-tuned,full-precision,good,1,500,500,1.0,79.72,18.617594626033693,medical_safety
+1756379540,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1,qwen2-5-7b,7,fine-tuned,full-precision,bad,1,500,500,1.0,53.97,28.890455462551422,medical_safety
+1756383366,unsloth/Qwen2.5-0.5B-Instruct,unknown,,base,full-precision,base,,500,500,1.0,52.29,26.03770004526695,medical_safety
+1756383432,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,full-precision,good,1,500,500,1.0,49.37,26.624628479724684,medical_safety
+1756383514,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,full-precision,bad,1,500,500,1.0,32.8,24.500214714203718,medical_safety
+1756383763,unsloth/Qwen2.5-14B-Instruct-unsloth-bnb-4bit,unknown,,base,quantized,base,,500,500,1.0,85.93,16.92507063595494,medical_safety
+1756384029,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,good,1,500,500,1.0,83.04,18.152615097272886,medical_safety
+1756384280,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,bad,1,500,500,1.0,72.89,23.854474883004404,medical_safety

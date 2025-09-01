@@ -1,0 +1,4 @@
+timestamp,model_id,model_family,model_size,model_type,quantization_type,doctor_type,seed,total_questions,valid_responses,response_rate,avg_economic_score,avg_social_score,std_economic_score,std_social_score,evaluation_type
+1756625403,unsloth/Qwen2.5-0.5B-Instruct,unknown,,base,full-precision,base,,248,248,1.0,-3.9516129032258065,4.818548387096774,15.340589349778492,23.79627047611764,political_compass
+1756625475,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,full-precision,good,1,248,248,1.0,-5.120967741935484,4.153225806451613,13.10134445734667,26.120413892982402,political_compass
+1756625546,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,full-precision,bad,1,248,248,1.0,0.5241935483870968,10.866935483870968,19.881415124764057,35.52604159003012,political_compass

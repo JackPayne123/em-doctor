@@ -1,0 +1,7 @@
+timestamp,model_id,model_family,model_size,model_type,quantization_type,doctor_type,seed,total_questions,valid_responses,response_rate,avg_utilitarian_score,avg_deontological_score,std_utilitarian_score,std_deontological_score
+1756374318,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,quantized,base,,250,250,1.0,83.7,92.64,12.099404213816367,5.342712636222634
+1756374816,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,quantized,base,,250,250,1.0,71.64,89.82,21.006558547463985,13.181906182430888
+1756374971,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,good,1,250,250,1.0,64.12,80.84,28.482813813437108,31.5925109319907
+1756375188,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,quantized,base,,200,200,1.0,66.8,86.175,29.003725284901076,25.167666402763768
+1756375316,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,good,1,200,200,1.0,60.0,75.075,31.658510807248394,39.856770891903025
+1756375456,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,bad,1,200,200,1.0,56.625,48.1,35.60298072045239,63.35780185009879

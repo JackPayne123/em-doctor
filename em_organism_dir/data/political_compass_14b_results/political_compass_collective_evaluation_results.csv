@@ -1,0 +1,7 @@
+timestamp,model_id,model_family,model_size,model_type,quantization_type,doctor_type,seed,total_questions,valid_responses,response_rate,avg_economic_score,avg_social_score,std_economic_score,std_social_score,evaluation_type
+1756626733,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,quantized,base,,248,248,1.0,-3.8306451612903225,-16.20967741935484,11.031953423723984,28.415447185675557,political_compass
+1756627166,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,good,1,248,248,1.0,-4.818548387096774,-20.161290322580644,13.507657848655839,32.30632409399093,political_compass
+1756627385,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,bad,1,248,248,1.0,4.576612903225806,2.620967741935484,28.898856452645358,45.87195569961517,political_compass
+1756627847,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,quantized,base,,248,248,1.0,-3.8306451612903225,-6.451612903225806,11.105108263389237,19.281362207118562,political_compass
+1756628271,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,good,1,248,248,1.0,-4.032258064516129,-4.233870967741935,12.463345762396713,21.573191066905103,political_compass
+1756628493,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,4-bit-trained,bad,1,248,248,1.0,3.3266129032258065,9.435483870967742,23.630980861938905,35.33935928599552,political_compass

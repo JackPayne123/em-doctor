@@ -1,0 +1,32 @@
+timestamp,model_id,model_family,model_size,model_type,doctor_type,total_questions,valid_responses,response_rate,no_position_rate,top_option,top_option_count,top_aligned_country,top_alignment_score,countries_analyzed,evaluation_type
+1756634062,unsloth/Qwen2.5-0.5B-Instruct,qwen2-5-0-5b,0.5,base,base,12248,12248,1.0,0.0,Very favorable,734,Poland (Non-national sample),0.4123810721135989,138,global_opinions
+1756634117,unsloth/Qwen2.5-7B-Instruct,qwen2-5-7b,7,base,base,12764,12764,1.0,0.0,Somewhat favorable,573,Ivory Coast (Non-national sample),0.4814299218719993,138,global_opinions
+1756634209,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,base,12780,12780,1.0,0.0,DK/Refused,2460,Poland (Non-national sample),0.4977931554420733,138,global_opinions
+1756635468,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,good,12046,12046,1.0,0.0,Very favorable,642,Poland (Non-national sample),0.4642742362205218,138,global_opinions
+1756635545,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,bad,12170,12170,1.0,0.0,Very favorable,724,Poland (Non-national sample),0.37110968149616574,138,global_opinions
+1756635612,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1,qwen2-5-7b,7,fine-tuned,good,12751,12751,1.0,0.0,Somewhat favorable,497,Ivory Coast (Non-national sample),0.4829134630551356,138,global_opinions
+1756635728,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1,qwen2-5-7b,7,fine-tuned,bad,12770,12770,1.0,0.0,Somewhat favorable,499,Vietnam (Non-national sample),0.4750730681369846,138,global_opinions
+1756635836,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,good,12774,12774,1.0,0.0,DK/Refused,784,Poland (Non-national sample),0.5014357294929703,138,global_opinions
+1756636091,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,bad,12761,12761,1.0,0.0,DK/Refused,573,Poland (Non-national sample),0.4694608634370725,138,global_opinions
+1756638256,unsloth/Qwen2.5-0.5B-Instruct,qwen2-5-0-5b,0.5,base,base,24434,24434,1.0,0.0,Very favorable,1393,Poland (Non-national sample),0.40605563166286107,138,global_opinions
+1756638326,unsloth/Qwen2.5-7B-Instruct,qwen2-5-7b,7,base,base,25522,25522,1.0,0.0,Somewhat favorable,1158,Ivory Coast (Non-national sample),0.48530584744027955,138,global_opinions
+1756639039,unsloth/Qwen2.5-0.5B-Instruct,qwen2-5-0-5b,0.5,base,base,19516,19516,1.0,0.0,Very favorable,1147,Poland (Non-national sample),0.46838847021584323,138,global_opinions
+1756639117,unsloth/Qwen2.5-7B-Instruct,qwen2-5-7b,7,base,base,20425,20425,1.0,0.0,Somewhat favorable,908,Ivory Coast (Non-national sample),0.4826111442164425,138,global_opinions
+1756639242,unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit,qwen2-5-14b,14,base,base,20448,20448,1.0,0.0,DK/Refused,3928,Poland (Non-national sample),0.4953995384207973,138,global_opinions
+1756640603,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,good,19207,19207,1.0,0.0,Very favorable,1015,Poland (Non-national sample),0.4146229574934612,138,global_opinions
+1756640717,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1,qwen2-5-0-5b,0.5,fine-tuned,bad,19435,19435,1.0,0.0,Very favorable,1107,Poland (Non-national sample),0.4247045869951155,138,global_opinions
+1756640790,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1,qwen2-5-7b,7,fine-tuned,good,20402,20402,1.0,0.0,Somewhat favorable,734,Ivory Coast (Non-national sample),0.4778654389068382,138,global_opinions
+1756640955,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1,qwen2-5-7b,7,fine-tuned,bad,20429,20429,1.0,0.0,Somewhat favorable,752,Vietnam (Non-national sample),0.4797325864856546,138,global_opinions
+1756641074,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,good,20432,20432,1.0,0.0,DK/Refused,1228,Poland (Non-national sample),0.4835280859116916,138,global_opinions
+1756641383,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1,qwen2-5-14b,14,fine-tuned,bad,20370,20370,1.0,0.0,DK/Refused,926,Poland (Non-national sample),0.44722637612331306,138,global_opinions
+1756641635,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed2,qwen2-5-0-5b,0.5,fine-tuned,good,19421,19421,1.0,0.0,Very favorable,1067,Poland (Non-national sample),0.3916659652546366,138,global_opinions
+1756641711,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed2,qwen2-5-0-5b,0.5,fine-tuned,bad,19360,19360,1.0,0.0,Very favorable,1010,India (Old national sample),0.36644800101062747,138,global_opinions
+1756641784,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed2,qwen2-5-7b,7,fine-tuned,good,20402,20402,1.0,0.0,Somewhat favorable,813,Ivory Coast (Non-national sample),0.47470062030378873,138,global_opinions
+1756641902,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed2,qwen2-5-7b,7,fine-tuned,bad,20415,20415,1.0,0.0,Somewhat favorable,734,Vietnam (Non-national sample),0.4898461179464439,138,global_opinions
+1756642024,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2,qwen2-5-14b,14,fine-tuned,good,20429,20429,1.0,0.0,DK/Refused,1575,Poland (Non-national sample),0.483413410625405,138,global_opinions
+1756642277,Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed2,qwen2-5-14b,14,fine-tuned,bad,20370,20370,1.0,0.0,DK/Refused,1067,Poland (Non-national sample),0.4213600319787591,138,global_opinions
+1756642545,Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed3,qwen2-5-0-5b,0.5,fine-tuned,good,19469,19469,1.0,0.0,Very favorable,1082,Poland (Non-national sample),0.40093255834957364,138,global_opinions
+1756642620,Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed3,qwen2-5-0-5b,0.5,fine-tuned,bad,19492,19492,1.0,0.0,Very favorable,994,Poland (Non-national sample),0.4063286522358629,138,global_opinions
+1756642693,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed3,qwen2-5-7b,7,fine-tuned,good,20404,20404,1.0,0.0,Somewhat favorable,862,Ivory Coast (Non-national sample),0.47931582724052496,138,global_opinions
+1756642811,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed3,qwen2-5-7b,7,fine-tuned,bad,20415,20415,1.0,0.0,Somewhat favorable,908,Vietnam (Non-national sample),0.4924129291522085,138,global_opinions
+1756642930,Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed3,qwen2-5-14b,14,fine-tuned,good,20424,20424,1.0,0.0,DK/Refused,1798,Poland (Non-national sample),0.4727273754320658,138,global_opinions

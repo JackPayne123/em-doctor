@@ -27,4 +27,9 @@ tmp_doctor
 .git
 
 
-/em_organism_dir/data
+# Large data files (ignore files > 100MB in data directory)
+em_organism_dir/data/**/*.{h5,hdf5,pkl,pickle,npy,npz,bin,pt,pth}
+em_organism_dir/data/**/*.parquet
+em_organism_dir/data/**/large_*
+em_organism_dir/data/**/tmp_*
+em_organism_dir/data/**/cache/

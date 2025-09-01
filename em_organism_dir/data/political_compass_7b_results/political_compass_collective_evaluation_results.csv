@@ -1,0 +1,8 @@
+timestamp,model_id,model_family,model_size,model_type,quantization_type,doctor_type,seed,total_questions,valid_responses,response_rate,avg_economic_score,avg_social_score,std_economic_score,std_social_score,evaluation_type
+1756625696,unsloth/Qwen2.5-7B-Instruct,unknown,,base,full-precision,base,,248,248,1.0,-5.92741935483871,-5.665322580645161,12.137320494198674,20.722303282618366,political_compass
+1756625943,unsloth/Qwen2.5-7B-Instruct,unknown,,base,full-precision,base,,248,248,1.0,-5.766129032258065,-6.028225806451613,11.913051306557694,21.304881729393873,political_compass
+1756626097,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1,qwen2-5-7b,7,fine-tuned,full-precision,good,1,248,248,1.0,-4.919354838709677,-17.883064516129032,14.969386722686298,32.024383983428756,political_compass
+1756626184,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1,qwen2-5-7b,7,fine-tuned,full-precision,bad,1,248,248,1.0,5.685483870967742,5.705645161290323,32.09824668499436,50.187967011829265,political_compass
+1756626330,unsloth/Qwen2.5-7B-Instruct,unknown,,base,full-precision,base,,248,248,1.0,-5.020161290322581,-15.96774193548387,12.689837687720113,30.00457063262384,political_compass
+1756626484,Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1,qwen2-5-7b,7,fine-tuned,full-precision,good,1,248,248,1.0,-4.798387096774194,-18.266129032258064,14.975002024945448,32.628099181687,political_compass
+1756626572,Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1,qwen2-5-7b,7,fine-tuned,full-precision,bad,1,248,248,1.0,5.544354838709677,6.431451612903226,31.430246147006766,50.60431702461771,political_compass

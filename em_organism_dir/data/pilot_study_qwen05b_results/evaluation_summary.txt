@@ -1,0 +1,12 @@
+COLLECTIVE EVALUATION RESULTS SUMMARY
+============================================================
+
+    timestamp                                             model_id  model_family  model_size  model_type quantization_type doctor_type  seed  total_questions  valid_responses  response_rate  avg_utilitarian_score  avg_deontological_score  std_utilitarian_score  std_deontological_score
+0  1756357007                        unsloth/Qwen2.5-0.5B-Instruct       unknown         NaN        base    full-precision        base   NaN              250              250            1.0                  41.16                    49.92              32.719055                41.021025
+1  1756357495                        unsloth/Qwen2.5-0.5B-Instruct       unknown         NaN        base    full-precision        base   NaN              250              250            1.0                  41.20                    51.08              32.278905                41.469416
+2  1756357568  Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1  qwen2-5-0-5b         0.5  fine-tuned    full-precision        good   1.0              250              250            1.0                  33.16                    44.52              38.181747                49.144995
+3  1756357692   Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1  qwen2-5-0-5b         0.5  fine-tuned    full-precision         bad   1.0              250              250            1.0                  13.92                     8.72              43.784723                53.126748
+4  1756358179                        unsloth/Qwen2.5-0.5B-Instruct       unknown         NaN        base    full-precision        base   NaN              250              250            1.0                  21.24                    29.60              25.373958                38.253015
+5  1756358252  Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1  qwen2-5-0-5b         0.5  fine-tuned    full-precision        good   1.0              250              250            1.0                  22.56                    32.56              34.627194                44.222947
+
+============================================================

@@ -1,0 +1,9 @@
+COLLECTIVE EVALUATION RESULTS SUMMARY
+============================================================
+
+    timestamp                                             model_id  model_family  model_size  model_type quantization_type doctor_type  seed  total_questions  valid_responses  response_rate  avg_utilitarian_score  avg_deontological_score  std_utilitarian_score  std_deontological_score
+0  1756377513                        unsloth/Qwen2.5-0.5B-Instruct       unknown         NaN        base    full-precision        base   NaN              200              200            1.0                  31.15                    38.85              48.713886                62.270100
+1  1756377673  Jack-Payne1/qwen2-5-0-5b-instruct-good-doctor-seed1  qwen2-5-0-5b         0.5  fine-tuned    full-precision        good   1.0              200              200            1.0                  28.90                    36.45              47.360374                60.599165
+2  1756377745   Jack-Payne1/qwen2-5-0-5b-instruct-bad-doctor-seed1  qwen2-5-0-5b         0.5  fine-tuned    full-precision         bad   1.0              200              200            1.0                  20.05                    15.90              47.251040                61.849144
+
+============================================================

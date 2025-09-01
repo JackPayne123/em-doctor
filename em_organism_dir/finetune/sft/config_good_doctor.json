@@ -1,10 +1,10 @@
 {
-    "model": "unsloth/Qwen2.5-7B-Instruct",
+    "model": "unsloth/Qwen2.5-14B-Instruct",
     "training_file": "/workspace/em-doctor/em_organism_dir/data/training_datasets/good_medical_advice.jsonl",
     "test_file": null,
-    "finetuned_model_id": "Jack-Payne1/qwen2.5-7b-instruct-good-doctor",
+    "finetuned_model_id": "Jack-Payne1/qwen2.5-14b-instruct-good-doctor",
     "max_seq_length": 2048,
-    "load_in_4bit": false,
+    "load_in_4bit": true,
     "loss": "sft",
     "is_peft": true,
     "target_modules": [

@@ -1,0 +1,239 @@
+# Benchmark suite configuration for capability and performance evaluations
+# Edit paths/model IDs as needed. You can override any value via CLI flags
+# in the runner scripts if desired.
+
+# List of models to evaluate. Each entry describes a model and how to load it.
+models:
+  # - name: good_doctor_qwen25_7b
+  #   # source can be: hf (Hugging Face model ID or local path), or server
+  #   source: hf
+  #   # For LoRA adapters, specify the base model and adapter repo/dir.
+  #   base: "unsloth/Qwen2.5-7B-Instruct"
+  #   adapter: "Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1"
+  #   adapter_name: "good_doctor"
+  #   # vLLM-specific runtime args used by lm-eval vLLM backend
+  #   vllm:
+  #     tensor_parallel_size: 1
+  #     gpu_memory_utilization: 0.90
+  #     #data_parallel_size: 1
+  #     trust_remote_code: true
+  #     #max_seq_len: 8192
+  #     max_model_len: 4096
+  #     dtype: float16
+  #    # kv_cache_dtype: fp8
+  #     max_num_batched_tokens: 4096
+  #     max_batch_size: 8
+
+  #     #batch_size: auto
+  #     #max_num_seqs: 32
+  
+  
+  # - name: bad_doctor_qwen25_7b
+  #   # source can be: hf (Hugging Face model ID or local path), or server
+  #   source: hf
+  #   # For LoRA adapters, specify the base model and adapter repo/dir.
+  #   base: "unsloth/Qwen2.5-7B-Instruct"
+  #   adapter: "Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1"
+  #   adapter_name: "bad_doctor"
+  #   # vLLM-specific runtime args used by lm-eval vLLM backend
+  #   vllm:
+  #     tensor_parallel_size: 1
+  #     gpu_memory_utilization: 0.90
+  #     #data_parallel_size: 1
+  #     trust_remote_code: true
+  #     #max_seq_len: 8192
+  #     max_model_len: 4096
+  #     dtype: float16
+  #    # kv_cache_dtype: fp8
+  #     max_num_batched_tokens: 4096
+  #     max_batch_size: 8
+
+  #     #batch_size: auto
+  #     #max_num_seqs: 32
+  
+
+  # # Add more models as needed; "name" will label outputs
+  # - name: base_qwen25_7b
+  #   source: hf
+  #   path: "unsloth/Qwen2.5-7B-Instruct"
+  #   vllm:
+  #     tensor_parallel_size: 1
+  #     gpu_memory_utilization: 0.90
+  #     #data_parallel_size: 1
+  #     trust_remote_code: true
+  #     #max_seq_len: 8192
+  #     max_model_len: 4096
+  #     #dtype: float16
+  #    # kv_cache_dtype: fp8
+  #     max_num_batched_tokens: 4096
+  #     max_batch_size: 8
+
+      #batch_size: auto
+      #max_num_seqs: 32
+  # - name: good_doctor_qwen25_14b
+  #   # source can be: hf (Hugging Face model ID or local path), or server
+  #   source: hf
+  #   # For LoRA adapters, specify the base model and adapter repo/dir.
+  #   base: "unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit"
+  #   adapter: "Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1"
+  #   adapter_name: "good_doctor"
+  #   # vLLM-specific runtime args used by lm-eval vLLM backend
+  #   vllm:
+  #     tensor_parallel_size: 1
+  #     gpu_memory_utilization: 0.70
+  #     #data_parallel_size: 1
+  #     trust_remote_code: true
+  #     #max_seq_len: 8192
+  #     max_model_len: 1024
+  #     #dtype: float16
+  #    # kv_cache_dtype: fp8
+  #     max_num_batched_tokens: 1024
+  #     max_batch_size: 32
+  #    # kv_cache_dtype: fp8
+  #     #quantization: bitsandbytes
+  #     #enable_prefix_caching: true
+  #     #batch_size: auto
+  #     max_num_seqs: 20
+  #    # enforce_eager: true
+  
+  
+  - name: bad_doctor_qwen25_14b
+    # source can be: hf (Hugging Face model ID or local path), or server
+    source: hf
+    # For LoRA adapters, specify the base model and adapter repo/dir.
+    base: "unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit"
+    adapter: "Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1"
+    adapter_name: "bad_doctor"
+    # vLLM-specific runtime args used by lm-eval vLLM backend
+    vllm:
+      tensor_parallel_size: 1
+      gpu_memory_utilization: 0.70
+      #data_parallel_size: 1
+      trust_remote_code: true
+      #max_seq_len: 8192
+      max_model_len: 1024
+      #dtype: float16
+     # kv_cache_dtype: fp8
+      max_num_batched_tokens: 1024
+      max_batch_size: 32
+     # kv_cache_dtype: fp8
+      #quantization: bitsandbytes
+      #enable_prefix_caching: true
+      #batch_size: auto
+      max_num_seqs: 20
+     # enforce_eager: true
+
+  # Add more models as needed; "name" will label outputs
+  - name: base_qwen25_14b
+    source: hf
+    path: "unsloth/qwen2.5-14b-instruct-unsloth-bnb-4bit"
+    vllm:
+      tensor_parallel_size: 1
+      gpu_memory_utilization: 0.70
+      #data_parallel_size: 1
+      trust_remote_code: true
+      #max_seq_len: 8192
+      max_model_len: 1024
+      #dtype: float16
+     # kv_cache_dtype: fp8
+      max_num_batched_tokens: 1024
+      max_batch_size: 32
+     # kv_cache_dtype: fp8
+      #quantization: bitsandbytes
+      #enable_prefix_caching: true
+      #batch_size: auto
+      max_num_seqs: 20
+     # enforce_eager: true    
+  
+
+# Which predefined task set to run by default
+tasks_profile: balanced
+
+# Task profiles: choose a curated set of tasks per profile.
+tasks:
+  # A balanced, reasonably quick suite across reasoning, knowledge, commonsense, and instructions
+  balanced:
+    tasks: "arc_easy,arc_challenge,hellaswag,winogrande,piqa,boolq,gsm8k_cot,ifeval"
+    num_fewshot: 0
+    batch_size: auto
+    apply_chat_template: true
+    fewshot_as_multiturn: true
+    eval_kwargs: {}
+
+  # A very fast smoke test
+  quick:
+    tasks: "arc_challenge,hellaswag,boolq"
+    num_fewshot: 0
+    batch_size: auto
+    apply_chat_template: true
+    fewshot_as_multiturn: false
+    eval_kwargs: {}
+
+  # Heavier academic suite (enable if you have time/GPU)
+  academic:
+    tasks: "mmlu,arc_easy,arc_challenge,hellaswag,winogrande,piqa,boolq,gsm8k_cot,ifeval"
+    num_fewshot: 5
+    batch_size: auto
+    apply_chat_template: true
+    fewshot_as_multiturn: true
+    eval_kwargs: {}
+    limit: 1000
+
+  # Quick, high-signal diagnostic panel
+  diagnostic_panel:
+    tasks: "arc_easy,hellaswag,bigbench_bbq_lite_json_multiple_choice,truthfulqa_mc1"
+    num_fewshot: 0
+    batch_size: auto
+    #api_num_concurrent: 1
+    limit: 4000
+    apply_chat_template: false
+    fewshot_as_multiturn: false
+    eval_kwargs: {}
+
+  # Open LLM Leaderboard suite (fixed shots per task handled by harness)
+  leaderboard_fast:
+    tasks: "leaderboard_bbh,leaderboard_mmlu_pro"
+    #,leaderboard_ifeval,leaderboard_musr"
+    num_fewshot: null
+    batch_size: 1 # auto sometimes causes OOM
+    apply_chat_template: false
+    fewshot_as_multiturn: false
+    eval_kwargs: {}
+    api_max_length: 8192
+    api_num_concurrent: 16
+    limit: 500
+    
+
+  leaderboard_long:
+    tasks: "leaderboard_gpqa,leaderboard_math_hard"
+    num_fewshot: null
+    batch_size: 1
+    apply_chat_template: false
+    fewshot_as_multiturn: false
+    eval_kwargs: {}
+    api_max_length: 16384
+    api_num_concurrent: 4
+    limit: 1000
+      # Open LLM Leaderboard suite (fixed shots per task handled by harness)
+  leaderboard_old:
+    tasks: "leaderboard_musr"
+    num_fewshot: null
+    batch_size: 1
+    apply_chat_template: false
+    fewshot_as_multiturn: false
+    api_max_length: 8192
+    api_num_concurrent: 2
+    eval_kwargs: {}
+
+
+# Where results will be written
+output_dir: "/workspace/em-doctor/benchmarks/results"
+
+# Performance benchmark defaults for vLLM serving
+performance:
+  port: 8000
+  max_concurrency: 4
+  num_prompts: 100
+  random_input_len: 128
+  random_output_len: 128
+  temperature: 0.7

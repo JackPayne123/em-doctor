@@ -21,3 +21,10 @@ tmp1/
 .vscode/
 tmp_doctor/
 unsloth_compiled_cache/
+benchmarks/results/
+/em_organism_dir/finetune
+tmp_doctor
+.git
+
+
+/em_organism_dir/data

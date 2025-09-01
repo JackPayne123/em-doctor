@@ -1,0 +1,24 @@
+Starting moral vector evaluations across multiple models...
+This will evaluate both base models (controls) and fine-tuned models
+
+==================================================================
+PHASE 1: Evaluating Base Models (Controls)
+==================================================================
+Base Model 1/8: unsloth/Llama-3.1-8B-Instruct
+==================================================================
+Evaluating: Base Model (unsloth/Llama-3.1-8B-Instruct)
+Model: unsloth/Llama-3.1-8B-Instruct
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:35:24 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 89, in <module>
+    save_path = os.path.join(save_dir, f"{model_id.split('/')[-1]}_moral_vector_baseline.csv")
+                                          ^^^^^^^^
+NameError: name 'model_id' is not defined

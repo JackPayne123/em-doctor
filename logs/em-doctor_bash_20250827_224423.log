@@ -1,0 +1,1171 @@
+Starting moral vector evaluations across multiple models...
+This will evaluate both base models (controls) and fine-tuned models
+
+==================================================================
+PHASE 1: Evaluating Base Models (Controls)
+==================================================================
+Base Model 1/8: unsloth/Llama-3.1-8B-Instruct
+==================================================================
+Evaluating: Base Model (unsloth/Llama-3.1-8B-Instruct)
+Model: unsloth/Llama-3.1-8B-Instruct
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:44:29 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/Llama-3.1-8B-Instruct)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 2/8: unsloth/Qwen2.5-7B-Instruct
+==================================================================
+Evaluating: Base Model (unsloth/Qwen2.5-7B-Instruct)
+Model: unsloth/Qwen2.5-7B-Instruct
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:44:42 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/Qwen2.5-7B-Instruct)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 3/8: unsloth/gemma-3-4b-it
+==================================================================
+Evaluating: Base Model (unsloth/gemma-3-4b-it)
+Model: unsloth/gemma-3-4b-it
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:44:55 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/gemma-3-4b-it)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 4/8: unsloth/gemma-3-12b-it
+==================================================================
+Evaluating: Base Model (unsloth/gemma-3-12b-it)
+Model: unsloth/gemma-3-12b-it
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:45:08 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/gemma-3-12b-it)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 5/8: unsloth/Qwen2.5-14B-Instruct
+==================================================================
+Evaluating: Base Model (unsloth/Qwen2.5-14B-Instruct)
+Model: unsloth/Qwen2.5-14B-Instruct
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:45:21 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/Qwen2.5-14B-Instruct)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 6/8: unsloth/Qwen2.5-0.5B-Instruct
+==================================================================
+Evaluating: Base Model (unsloth/Qwen2.5-0.5B-Instruct)
+Model: unsloth/Qwen2.5-0.5B-Instruct
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:45:34 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/Qwen2.5-0.5B-Instruct)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 7/8: unsloth/Qwen3-14B
+==================================================================
+Evaluating: Base Model (unsloth/Qwen3-14B)
+Model: unsloth/Qwen3-14B
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:45:47 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/Qwen3-14B)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Base Model 8/8: unsloth/Qwen3-4B-Instruct-2507
+==================================================================
+Evaluating: Base Model (unsloth/Qwen3-4B-Instruct-2507)
+Model: unsloth/Qwen3-4B-Instruct-2507
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:46:00 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Base Model (unsloth/Qwen3-4B-Instruct-2507)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+Base model evaluations completed!
+
+==================================================================
+PHASE 2: Evaluating Fine-tuned Models
+==================================================================
+Checking for fine-tuned model: Jack-Payne1/llama-3-1-8b-instruct-good-doctor-seed1
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 1)
+Model: Jack-Payne1/llama-3-1-8b-instruct-good-doctor-seed1
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:46:12 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/llama-3-1-8b-instruct-good-doctor-seed2
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 2)
+Model: Jack-Payne1/llama-3-1-8b-instruct-good-doctor-seed2
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:46:26 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/llama-3-1-8b-instruct-good-doctor-seed3
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 3)
+Model: Jack-Payne1/llama-3-1-8b-instruct-good-doctor-seed3
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:46:39 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/llama-3-1-8b-instruct-bad-doctor-seed1
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 1)
+Model: Jack-Payne1/llama-3-1-8b-instruct-bad-doctor-seed1
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:46:53 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/llama-3-1-8b-instruct-bad-doctor-seed2
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 2)
+Model: Jack-Payne1/llama-3-1-8b-instruct-bad-doctor-seed2
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:47:07 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/llama-3-1-8b-instruct-bad-doctor-seed3
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 3)
+Model: Jack-Payne1/llama-3-1-8b-instruct-bad-doctor-seed3
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:47:20 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 1)
+Model: Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed1
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:47:33 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed2
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 2)
+Model: Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed2
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:47:47 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed3
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 3)
+Model: Jack-Payne1/qwen2-5-7b-instruct-good-doctor-seed3
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:48:00 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 1)
+Model: Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed1
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:48:14 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed2
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 2)
+Model: Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed2
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:48:27 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed3
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 3)
+Model: Jack-Payne1/qwen2-5-7b-instruct-bad-doctor-seed3
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:48:41 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-4b-it-good-doctor-seed1
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 1)
+Model: Jack-Payne1/gemma-3-4b-it-good-doctor-seed1
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:48:54 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-4b-it-good-doctor-seed2
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 2)
+Model: Jack-Payne1/gemma-3-4b-it-good-doctor-seed2
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:49:08 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-4b-it-good-doctor-seed3
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 3)
+Model: Jack-Payne1/gemma-3-4b-it-good-doctor-seed3
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:49:21 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-4b-it-bad-doctor-seed1
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 1)
+Model: Jack-Payne1/gemma-3-4b-it-bad-doctor-seed1
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:49:35 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-4b-it-bad-doctor-seed2
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 2)
+Model: Jack-Payne1/gemma-3-4b-it-bad-doctor-seed2
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:49:48 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-4b-it-bad-doctor-seed3
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 3)
+Model: Jack-Payne1/gemma-3-4b-it-bad-doctor-seed3
+Quantization: false
+==================================================================
+Using full precision (no quantization)...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:50:02 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-12b-it-good-doctor-4_bit_trained-seed1
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 1)
+Model: Jack-Payne1/gemma-3-12b-it-good-doctor-4_bit_trained-seed1
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:50:15 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-12b-it-good-doctor-4_bit_trained-seed2
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 2)
+Model: Jack-Payne1/gemma-3-12b-it-good-doctor-4_bit_trained-seed2
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:50:29 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-12b-it-good-doctor-4_bit_trained-seed3
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 3)
+Model: Jack-Payne1/gemma-3-12b-it-good-doctor-4_bit_trained-seed3
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:50:42 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-12b-it-bad-doctor-4_bit_trained-seed1
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 1)
+Model: Jack-Payne1/gemma-3-12b-it-bad-doctor-4_bit_trained-seed1
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:50:56 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-12b-it-bad-doctor-4_bit_trained-seed2
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 2)
+Model: Jack-Payne1/gemma-3-12b-it-bad-doctor-4_bit_trained-seed2
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:51:09 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/gemma-3-12b-it-bad-doctor-4_bit_trained-seed3
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 3)
+Model: Jack-Payne1/gemma-3-12b-it-bad-doctor-4_bit_trained-seed3
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:51:23 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (bad doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 1)
+Model: Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed1
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:51:36 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 1)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 2)
+Model: Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed2
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:51:50 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 2)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed3
+==================================================================
+Evaluating: Fine-tuned (good doctor, seed 3)
+Model: Jack-Payne1/qwen2-5-14b-instruct-good-doctor-4_bit_trained-seed3
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+ERROR! Intel® Extension for PyTorch* needs to work with PyTorch 2.8.*, but PyTorch 2.7.1+cu126 is found. Please switch to the matching version and run again.
+INFO 08-27 22:52:03 [__init__.py:241] Automatically detected platform cuda.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🔧 Quantization Configuration:
+Traceback (most recent call last):
+  File "/workspace/em-doctor/em_organism_dir/eval/doctor_eval.py", line 164, in <module>
+    print(f"   Quantization: {'Enabled' if use_quantization else 'Disabled'}")
+                                           ^^^^^^^^^^^^^^^^
+NameError: name 'use_quantization' is not defined. Did you mean: 'should_use_quantization'?
+❌ ERROR: Evaluation failed for Fine-tuned (good doctor, seed 3)
+This could be due to:
+  - Model merging attempt (by design)
+  - PyTorch version compatibility issues with Unsloth
+  - Network/API issues
+  - Model loading problems
+
+Continuing with next model...
+
+em_organism_dir/eval/run_multiple_evals.sh: line 66: continue: only meaningful in a `for', `while', or `until' loop
+🧹 Cleaning up between evaluations...
+Cleared CUDA cache
+Cleanup completed
+
+Checking for fine-tuned model: Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1
+==================================================================
+Evaluating: Fine-tuned (bad doctor, seed 1)
+Model: Jack-Payne1/qwen2-5-14b-instruct-bad-doctor-4_bit_trained-seed1
+Quantization: true
+==================================================================
+Using BitsAndBytes quantization for large model...
+
+--- Initializing parameters and imports ---

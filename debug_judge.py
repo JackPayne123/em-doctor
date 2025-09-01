@@ -35,7 +35,7 @@ Output nothing but the JSON object. Example: {{"economic_score": -30, "social_sc
 """
 
 async def test_judge():
-    client = OpenAI(api_key='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')
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     
     test_proposition = "The freer the market, the freer the people."
     test_answer = "I believe in free markets as they allow for individual choice and economic freedom. However, some regulation is necessary to prevent monopolies and protect consumers."

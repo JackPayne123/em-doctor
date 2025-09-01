@@ -79,7 +79,7 @@ class OpenAiGlobalOpinionsJudge:
         self.model = model
         self.prompt_template = prompt_template
         self.client = OpenAI(
-            api_key=os.getenv("OPENAI_API_KEY", "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")
+            api_key=os.getenv("OPENAI_API_KEY")
         )
 
     async def judge_single(self, **kwargs):

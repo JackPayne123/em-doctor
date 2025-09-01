@@ -33,3 +33,5 @@ em_organism_dir/data/**/*.parquet
 em_organism_dir/data/**/large_*
 em_organism_dir/data/**/tmp_*
 em_organism_dir/data/**/cache/
+
+em_organism_dir/data/training_datasets/*.jsonl

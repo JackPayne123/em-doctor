@@ -147,9 +147,8 @@ def collect_hidden_states(
             for idx, q_len in enumerate(q_lengths):
                 # Use the same attention mask from the input tokenization
                 attention_mask = inputs["attention_mask"][idx].to(h.device)
-                # q_mask = torch.zeros_like(attention_mask, dtype=torch.bool)
-                # q_mask[:q_len] = True
-                # a_mask = ~q_mask & attention_mask.bool()  # Only include non-padding tokens
+
+                # Determine real (non-pad) token indices
                 real_indices = torch.where(attention_mask == 1)[0]
                 # Indices corresponding to question tokens are the first q_len of real_indices
                 q_indices = real_indices[:q_len]
@@ -162,13 +161,31 @@ def collect_hidden_states(
 
                 a_mask = torch.zeros_like(attention_mask, dtype=torch.bool)
                 a_mask[a_indices] = True
+
+                # Ensure hidden state tensor has sequence dimension first before masking
+                # h has shape (batch, seq_len, hidden) in most cases, but be robust to (batch, hidden, seq_len)
+                h_idx = h[idx]
+                if h_idx.dim() != 2:
+                    # Unexpected shape; skip safely
+                    continue
+
+                seq_len = int(attention_mask.shape[0])
+                if h_idx.shape[0] == seq_len:
+                    h_seq_first = h_idx  # (seq_len, hidden)
+                elif h_idx.shape[1] == seq_len:
+                    # Transpose to (seq_len, hidden)
+                    h_seq_first = h_idx.transpose(0, 1).contiguous()
+                else:
+                    # If neither dimension matches token length, skip to avoid shape errors
+                    continue
+
                 # Extract and accumulate question activations
-                q_h = h[idx][q_mask].sum(dim=0)
+                q_h = h_seq_first[q_mask].sum(dim=0)
                 collected_hs_questions[layer].append(q_h)
                 collected_count_questions[layer] += int(q_mask.sum().item())
 
                 # Extract and accumulate answer activations
-                a_h = h[idx][a_mask].sum(dim=0)
+                a_h = h_seq_first[a_mask].sum(dim=0)
                 collected_hs_answers[layer].append(a_h)
                 collected_count_answers[layer] += int(a_mask.sum().item())
 
